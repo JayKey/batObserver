@@ -15,7 +15,13 @@
 }
 
 body {
-  color: var(--foreground);
+  color: #5b5b5b; /*var(--foreground);*/
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Leaflet CSS */
+.leaflet-container {
+  height: 400px;
+  width: 100%;
 }
